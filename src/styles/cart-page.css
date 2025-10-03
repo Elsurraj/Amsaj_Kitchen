@@ -1,0 +1,38 @@
+table tr th{
+    text-align: center;
+}
+table thead{
+    border-bottom: 3px solid #777;
+}
+.cart__img-box{
+    width: 90px;
+}
+.cart__img-box img{
+    width: 100%;
+}
+.cart__item-del i{
+    cursor: pointer;
+}
+
+.cart__page-btn button a{
+    color: #fff;
+    text-decoration: none;
+}
+.cart__page-btn button a:hover{
+    color: #fff;
+}
+.cart__subtotal{
+    color: #df2020;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.subtotal__content h6{
+    font-weight: 500;
+}
+
+
+@media only screen and (max-wdith: 768px){
+    th, td{
+        font-size: .8rem;
+    }
+}

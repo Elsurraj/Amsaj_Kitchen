@@ -1,0 +1,198 @@
+.feature__subtitle {
+  color: #df2020;
+  font-weight: 600;
+}
+.feature__title span {
+  color: #df2020;
+  font-weight: 600;
+}
+.text-center h2 {
+  font-weight: 600;
+}
+.text-center p {
+  color: #777;
+}
+
+.font-weight {
+  font-weight: 600;
+}
+/* --------- Feature Section -------- */
+.feature__item p {
+  color: #777;
+}
+
+.food__category {
+  background: #df2020;
+  margin-top: 30px;
+  padding: 20px 0px;
+  border-radius: 8px;
+}
+.food__category button {
+  border: none;
+  outline: none;
+  padding: 7px 20px;
+  background: transparent;
+  color: #fff;
+}
+.food__category button img {
+  width: 20px;
+  height: 20px;
+}
+
+.foodBtnActive {
+  background: #fff !important;
+  border-radius: 5px;
+  color: #df2020 !important;
+}
+
+/* --------- why AmsajKitchen -------- */
+.why__Amsaj-kitchen-Img img {
+  width: 95%;
+  height: 70vh;
+  margin-top: 10px;
+}
+.why__AmsajKitchen h2 {
+  font-weight: 600;
+}
+.why__AmsajKitchen-title span {
+  color: #df2020;
+  font-weight: 600;
+}
+.Amsaj__Kitchen-desc {
+  color: #777;
+  line-height: 28px;
+  font-weight: "";
+}
+.list__Group ListGroupItem p:nth-child(0) {
+  font-weight: 800;
+  color: red;
+}
+.choose__us-title {
+  font-weight: 600;
+  border-bottom: 10px;
+}
+.choose__us-title i {
+  font-weight: 500 !important;
+  color: #df2020;
+}
+.choose__us-title {
+  font-weight: 600;
+}
+.choose__us-desc {
+  color: #777;
+}
+
+/* --------- Testimonial Section -------- */
+
+.testimonial__subtitle {
+  color: #df2020;
+  font-weight: 600;
+  text-align: center;
+}
+.testimonial__title {
+  font-weight: 600;
+}
+.testimonial__title span {
+  color: #df2020;
+}
+.testimonial__desc {
+  color: #777;
+  line-height: 30px;
+}
+.networkImg img {
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .hero__content h5 {
+    font-size: 1rem;
+  }
+  .hero__title {
+    font-size: 1.5rem;
+    line-height: 40px;
+  }
+  .hero__content p {
+    font-size: 0.8rem;
+    line-height: 25px;
+  }
+  .hero__btns button {
+    padding: 5px 15px;
+    font-size: 0.7rem;
+  }
+  .hero__service p {
+    font-size: 0.7rem !important;
+  }
+  .feature__item h5 {
+    font-size: 0.9rem;
+  }
+  .feature__item p {
+    font-size: 0.8rem;
+    margin-bottom: 0;
+  }
+  .feature__subtitle {
+    font-size: 1rem;
+  }
+  .feature__text {
+    font-size: 0.8rem;
+    margin-bottom: 0;
+  }
+  .food__category {
+    padding: 15px;
+  }
+  .food__category button {
+    padding: 5px 5px;
+    font-size: 0.7rem;
+  }
+  .Amsaj__Kitchen-desc {
+    font-size: 0.8rem;
+    margin-bottom: 0;
+  }
+  .choose__us-title {
+    font-size: 0.8rem;
+  }
+  .choose__us-desc {
+    font-size: 0.7rem;
+  }
+  .why__choose-us {
+    padding-top: 0;
+  }
+  .testimonial__subtitle {
+    font-size: 1rem;
+  }
+  .testimonial__desc {
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .hero__content {
+    text-align: center !important;
+  }
+  .hero__btns {
+    justify-content: center;
+  }
+  .hero__service {
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .category__item {
+    padding: 20px 15px;
+  }
+  .category__img img {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+  }
+  .category__item h6 {
+    font-size: 0.8rem;
+  }
+  .why__Amsaj-kitchen-Img img {
+    width: 85%;
+    height: 50vh;
+  }
+  .why__AmsajKitchen-title{
+      text-align: center;
+  }
+}

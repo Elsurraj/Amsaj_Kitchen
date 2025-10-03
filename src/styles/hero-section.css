@@ -1,0 +1,78 @@
+.hero__content{
+    padding-top: 70px;
+}
+.hero__title{
+    font-style: 2.5rem;
+    line-height: 55px;
+    font-weight: 550;
+}
+.hero__title span{
+    color: #df2020;
+}
+.hero__content p{
+    font-size: 1rem;
+    line-height: 30px;
+    color: #777;
+}
+.hero__img img{
+    width: calc(100% - 20%);
+}
+.hero__btns button{
+    border: none;
+    outline: none;
+    padding: 7px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.order__btn{
+    background: #df2020;
+    color: #fff;
+    transition: .3s;
+}
+.order__btn:hover{
+    background: #212245;
+}
+.all__foods-btn{
+    background: transparent;
+    border: 1px solid #df2020 !important;
+}
+.all__foods-btn a{
+    text-decoration: none;
+    color: #df2020;
+}
+
+.hero__service p{
+    color: #212245;
+    font-weight: 600;
+    font-size: .9rem;
+}
+.shipping__icon i{
+    padding: 5px;
+    background: #df2020;
+    border-radius: 50%;
+    font-weight: 500 !important;
+}
+
+
+/* --------- Category__item-Section -------- */
+.category__item{
+    background: #fde4e4 ;
+    padding: 30px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .4s;
+}
+.category__item:hover{
+    transform: translateY(-15px);
+}
+.category__item img{
+    width: 80%;
+    height: 6vh;
+    border-radius: 50%;
+}
+.category__item h6{
+    font-weight: 600;
+}
+
+

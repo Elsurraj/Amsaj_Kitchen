@@ -1,0 +1,11 @@
+.common__section{
+    background: linear-gradient(#2122452b,  #2122452b), url('../assests/images/pro1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 80px 0px;
+}
+.common__section h2{
+    color: #fff;
+    font-weight: 600;
+}
